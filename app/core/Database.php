@@ -35,8 +35,7 @@ Trait Database
             $result = $stm->fetchAll(PDO::FETCH_OBJ);
             if(is_array($result) && count($result))
             return $result;
-            {
-            }
+            
         }
         return false;
     }

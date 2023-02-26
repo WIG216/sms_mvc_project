@@ -9,3 +9,8 @@
 
         define('ROOT', 'http://localhost/sms_mvc_project/public/');
     }
+
+    define("APP_NAME", "MVC PROJECT");
+
+    // true means it shows errors
+    define('DEBUG', true);
